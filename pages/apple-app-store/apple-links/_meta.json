@@ -1,0 +1,27 @@
+{
+  "appstore": {
+    "title": "App Store Home",
+    "href": "https://developer.apple.com/app-store/",
+    "newWindow": true
+  },
+  "articles": {
+    "title": "Articles",
+    "href": "https://developer.apple.com/app-store/articles/",
+    "newWindow": true
+  },
+  "videos": {
+    "title": "Videos",
+    "href": "https://developer.apple.com/videos/app-store-distribution-marketing",
+    "newWindow": true
+  },
+  "guidelines": {
+    "title": "Guidelines",
+    "href": "https://developer.apple.com/app-store/guidelines/",
+    "newWindow": true
+  },
+  "review_guidelines": {
+    "title": "Review Guidelines",
+    "href": "https://developer.apple.com/app-store/review/guidelines/",
+    "newWindow": true
+  }
+}
