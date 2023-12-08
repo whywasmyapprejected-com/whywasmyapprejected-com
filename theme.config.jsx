@@ -1,3 +1,6 @@
+import { Analytics } from '@vercel/analytics/react';
+
+
 export default {
   logo: (
     <span>
@@ -41,6 +44,7 @@ export default {
         <a href="https://WhyWasMyAppRejected.com" target="_blank">
           WhyWasMyAppRejected.com
         </a>
+        <Analytics />
       </span>
     ),
   },
