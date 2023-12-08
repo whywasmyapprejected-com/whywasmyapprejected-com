@@ -4,6 +4,11 @@ export default {
       WhyWasMyAppRejected
     </span>
   ),
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – WhyWasMyAppRejected'
+    }
+  },
   head: (
     <>
       <link rel="shortcut icon" href="/favicon.ico" />
