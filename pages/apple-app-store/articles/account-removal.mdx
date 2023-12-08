@@ -1,0 +1,87 @@
+# Ensuring Your App Meets Account Deletion Requirements
+
+As of June 30, 2022, new regulations have been implemented that affect apps on
+the App Store. Any app that offers account creation must also provide users with
+the ability to delete their account directly within the app. This marks a
+significant shift towards enhancing user control over personal data. Below is a
+succinct guide that outlines developer obligations and highlights common
+pitfalls to avoid.
+
+## What Developers Need To Do 🛠️
+
+### Implement Account Deletion Functionality
+
+- Integrate the option for account deletion within your app, preferably within
+  the account settings.
+- Deleting the account must purge the entire account record and any associated
+  personal data, barring any legal requirements for retention.
+- If a website visit is required to complete deletion, link directly to the
+  relevant page.
+- Inform users about delay times and how in-app purchases, subscriptions, and
+  refunds are handled post-deletion.
+
+### Guide Users Clearly
+
+- Present the account deletion option in a conspicuous location.
+- Make the process simple and transparent, avoiding any unnecessary
+  complications.
+
+### Legal Considerations
+
+- Remain compliant with all legal frameworks concerning user data retention and
+  deletion.
+- Consult legal counsel if you have any uncertainties about these obligations.
+
+### Offer Immediate Support for Account Deletion
+
+- Even if the deletion process is manual and time-consuming, inform users of the
+  expected duration.
+- Provide confirmation once the deletion has been completed.
+
+## Common Mistakes to Avoid ❌
+
+### Making Deletion Options Hard to Find
+
+- **Solution:** Feature the delete option prominently within the app's settings or
+  profile sections.
+
+### Requiring External Steps for Completion
+
+- **Solution:** Finalize the entire deletion within the app, without directing users
+  to call customer service, unless legally permitted due to the nature of the
+  industry.
+
+### Excessive Confirmation Steps
+
+- **Solution:** While reauthentication is fair, avoid overburdening users with
+  confirmation steps.
+
+### Neglecting Automatically Created Accounts
+
+- **Solution:** Always provide an option to delete “guest” or automatically
+  generated accounts.
+
+### Handling Subscriptions Poorly
+
+- **Solution:** Notify users to cancel any ongoing subscriptions and provide clear
+  instructions or links to manage their subscriptions.
+
+### Ignoring Non-Compliance for Global Users
+
+- **Solution:** Ensure account deletion practices are available to all users, not
+  just in regions with legal requirements like the CCPA or GDPR.
+
+## Subscription Handling 🧾
+
+- Advise users to cancel auto-renewable subscriptions and provide links or
+  instructions to manage subscriptions.
+- For refund requests, direct users to Apple Support or integrate
+  beginRefundRequest for requests within the app.
+- Enable users to schedule account deletion to coincide with the expiration of
+  their subscriptions if immediate deletion is not selected.
+
+In summary, offering a direct, understandable, and transparent account deletion
+process within your app isn't only a requirement—it's fundamental for providing
+users with control over their data and complying with App Store guidelines.
+Avoid common mistakes by focusing on clarity, user autonomy, and robust support
+structures for managing subscriptions and providing feedback.

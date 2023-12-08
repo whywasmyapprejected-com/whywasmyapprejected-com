@@ -2,6 +2,14 @@ import { Analytics } from "@vercel/analytics/react";
 
 export default {
   logo: <span>WhyWasMyAppRejected</span>,
+  banner: {
+    key: 'appstore-account-removal',
+    text: (
+      <a href="/apple-app-store/articles/account-removal">
+        Account removal flows are now mandatory for App Store apps. Read more →
+      </a>
+    )
+  },
   useNextSeoProps() {
     return {
       titleTemplate: "%s – WhyWasMyAppRejected",
